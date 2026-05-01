@@ -1,0 +1,677 @@
+[
+  {
+    "model_id": "math_G1",
+    "dataset": "math",
+    "target": "G1",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 2.0691,
+        "SD": 0.0179,
+        "RMSE": 2.5535,
+        "MAC": 0.8881
+      },
+      "classification": {
+        "accuracy": 0.8303,
+        "precision": 0.8303,
+        "recall": 0.5649,
+        "f1": 0.5649
+      },
+      "confusion_matrix": [
+        [
+          269,
+          52
+        ],
+        [
+          14,
+          60
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.057,
+        0.0669,
+        0.8761
+      ],
+      "metrics": {
+        "MAE": 1.9987,
+        "SD": 0.0675,
+        "RMSE": 2.5628,
+        "MAC": 0.8913
+      },
+      "classification": {
+        "accuracy": 0.819,
+        "precision": 0.819,
+        "recall": 0.548,
+        "f1": 0.548
+      },
+      "confusion_matrix": [
+        [
+          281,
+          40
+        ],
+        [
+          20,
+          54
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": 0.0704,
+      "RMSE_delta": -0.0093,
+      "F1_delta": -0.0169,
+      "ACC_delta": -0.0113,
+      "MAE_pct": 3.4,
+      "novelty_wins": true
+    }
+  },
+  {
+    "model_id": "math_G2",
+    "dataset": "math",
+    "target": "G2",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 2.3824,
+        "SD": 0.0226,
+        "RMSE": 2.943,
+        "MAC": 0.8554
+      },
+      "classification": {
+        "accuracy": 0.8177,
+        "precision": 0.8177,
+        "recall": 0.5324,
+        "f1": 0.5324
+      },
+      "confusion_matrix": [
+        [
+          279,
+          45
+        ],
+        [
+          15,
+          56
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.0495,
+        0.0694,
+        0.8811
+      ],
+      "metrics": {
+        "MAE": 2.2371,
+        "SD": 0.0121,
+        "RMSE": 2.8206,
+        "MAC": 0.873
+      },
+      "classification": {
+        "accuracy": 0.7962,
+        "precision": 0.7962,
+        "recall": 0.5165,
+        "f1": 0.5165
+      },
+      "confusion_matrix": [
+        [
+          276,
+          48
+        ],
+        [
+          20,
+          51
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": 0.1453,
+      "RMSE_delta": 0.1224,
+      "F1_delta": -0.0159,
+      "ACC_delta": -0.0215,
+      "MAE_pct": 6.1,
+      "novelty_wins": true
+    }
+  },
+  {
+    "model_id": "math_G3",
+    "dataset": "math",
+    "target": "G3",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 2.4955,
+        "SD": 0.031,
+        "RMSE": 3.1334,
+        "MAC": 0.8352
+      },
+      "classification": {
+        "accuracy": 0.8051,
+        "precision": 0.8051,
+        "recall": 0.4967,
+        "f1": 0.4967
+      },
+      "confusion_matrix": [
+        [
+          267,
+          49
+        ],
+        [
+          25,
+          54
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.0483,
+        0.0694,
+        0.8824
+      ],
+      "metrics": {
+        "MAE": 2.4433,
+        "SD": 0.0364,
+        "RMSE": 3.0631,
+        "MAC": 0.8536
+      },
+      "classification": {
+        "accuracy": 0.819,
+        "precision": 0.819,
+        "recall": 0.5544,
+        "f1": 0.5544
+      },
+      "confusion_matrix": [
+        [
+          277,
+          39
+        ],
+        [
+          29,
+          50
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": 0.0522,
+      "RMSE_delta": 0.0703,
+      "F1_delta": 0.0577,
+      "ACC_delta": 0.0139,
+      "MAE_pct": 2.09,
+      "novelty_wins": true
+    }
+  },
+  {
+    "model_id": "port_G1",
+    "dataset": "port",
+    "target": "G1",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 2.1928,
+        "SD": 0.0941,
+        "RMSE": 2.721,
+        "MAC": 0.8857
+      },
+      "classification": {
+        "accuracy": 0.8058,
+        "precision": 0.8058,
+        "recall": 0.5298,
+        "f1": 0.5298
+      },
+      "confusion_matrix": [
+        [
+          445,
+          91
+        ],
+        [
+          18,
+          95
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.0506,
+        0.0701,
+        0.8793
+      ],
+      "metrics": {
+        "MAE": 2.1002,
+        "SD": 0.1404,
+        "RMSE": 2.5758,
+        "MAC": 0.9008
+      },
+      "classification": {
+        "accuracy": 0.8105,
+        "precision": 0.8105,
+        "recall": 0.5429,
+        "f1": 0.5429
+      },
+      "confusion_matrix": [
+        [
+          465,
+          71
+        ],
+        [
+          25,
+          88
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": 0.0926,
+      "RMSE_delta": 0.1452,
+      "F1_delta": 0.0131,
+      "ACC_delta": 0.0047,
+      "MAE_pct": 4.22,
+      "novelty_wins": true
+    }
+  },
+  {
+    "model_id": "port_G2",
+    "dataset": "port",
+    "target": "G2",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 2.2837,
+        "SD": 0.0109,
+        "RMSE": 2.828,
+        "MAC": 0.8708
+      },
+      "classification": {
+        "accuracy": 0.7982,
+        "precision": 0.7982,
+        "recall": 0.5604,
+        "f1": 0.5604
+      },
+      "confusion_matrix": [
+        [
+          444,
+          72
+        ],
+        [
+          38,
+          95
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.0549,
+        0.0548,
+        0.8904
+      ],
+      "metrics": {
+        "MAE": 2.2793,
+        "SD": 0.0747,
+        "RMSE": 2.8113,
+        "MAC": 0.8795
+      },
+      "classification": {
+        "accuracy": 0.8051,
+        "precision": 0.8051,
+        "recall": 0.5631,
+        "f1": 0.5631
+      },
+      "confusion_matrix": [
+        [
+          443,
+          73
+        ],
+        [
+          41,
+          92
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": 0.0044,
+      "RMSE_delta": 0.0167,
+      "F1_delta": 0.0027,
+      "ACC_delta": 0.0069,
+      "MAE_pct": 0.19,
+      "novelty_wins": true
+    }
+  },
+  {
+    "model_id": "port_G3",
+    "dataset": "port",
+    "target": "G3",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 2.4506,
+        "SD": 0.128,
+        "RMSE": 3.0771,
+        "MAC": 0.8578
+      },
+      "classification": {
+        "accuracy": 0.8004,
+        "precision": 0.8004,
+        "recall": 0.5349,
+        "f1": 0.5349
+      },
+      "confusion_matrix": [
+        [
+          436,
+          81
+        ],
+        [
+          31,
+          101
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.0544,
+        0.0734,
+        0.8722
+      ],
+      "metrics": {
+        "MAE": 2.3088,
+        "SD": 0.0703,
+        "RMSE": 2.8822,
+        "MAC": 0.8644
+      },
+      "classification": {
+        "accuracy": 0.8058,
+        "precision": 0.8058,
+        "recall": 0.5404,
+        "f1": 0.5404
+      },
+      "confusion_matrix": [
+        [
+          452,
+          65
+        ],
+        [
+          42,
+          90
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": 0.1418,
+      "RMSE_delta": 0.1949,
+      "F1_delta": 0.0055,
+      "ACC_delta": 0.0054,
+      "MAE_pct": 5.79,
+      "novelty_wins": true
+    }
+  },
+  {
+    "model_id": "exam_math_score",
+    "dataset": "exam",
+    "target": "math_score",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 16.4705,
+        "SD": 0.0063,
+        "RMSE": 19.8252,
+        "MAC": 0.9169
+      },
+      "classification": {
+        "accuracy": 0.7385,
+        "precision": 0.7385,
+        "recall": 0.7685,
+        "f1": 0.7685
+      },
+      "confusion_matrix": [
+        [
+          317,
+          70
+        ],
+        [
+          185,
+          428
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.3208,
+        0.3778,
+        0.3014
+      ],
+      "metrics": {
+        "MAE": 17.0893,
+        "SD": 0.0305,
+        "RMSE": 20.6117,
+        "MAC": 0.9106
+      },
+      "classification": {
+        "accuracy": 0.7315,
+        "precision": 0.7315,
+        "recall": 0.7647,
+        "f1": 0.7647
+      },
+      "confusion_matrix": [
+        [
+          313,
+          74
+        ],
+        [
+          176,
+          437
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": -0.6188,
+      "RMSE_delta": -0.7865,
+      "F1_delta": -0.0038,
+      "ACC_delta": -0.007,
+      "MAE_pct": -3.76,
+      "novelty_wins": false
+    }
+  },
+  {
+    "model_id": "exam_reading_score",
+    "dataset": "exam",
+    "target": "reading_score",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 13.488,
+        "SD": 0.0699,
+        "RMSE": 16.6528,
+        "MAC": 0.9416
+      },
+      "classification": {
+        "accuracy": 0.7285,
+        "precision": 0.7285,
+        "recall": 0.7979,
+        "f1": 0.7979
+      },
+      "confusion_matrix": [
+        [
+          195,
+          97
+        ],
+        [
+          180,
+          528
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.3478,
+        0.3737,
+        0.2785
+      ],
+      "metrics": {
+        "MAE": 13.6248,
+        "SD": 0.0267,
+        "RMSE": 16.8618,
+        "MAC": 0.9407
+      },
+      "classification": {
+        "accuracy": 0.7115,
+        "precision": 0.7115,
+        "recall": 0.7819,
+        "f1": 0.7819
+      },
+      "confusion_matrix": [
+        [
+          210,
+          82
+        ],
+        [
+          215,
+          493
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": -0.1368,
+      "RMSE_delta": -0.209,
+      "F1_delta": -0.016,
+      "ACC_delta": -0.017,
+      "MAE_pct": -1.01,
+      "novelty_wins": false
+    }
+  },
+  {
+    "model_id": "exam_writing_score",
+    "dataset": "exam",
+    "target": "writing_score",
+    "base": {
+      "name": "DCatBoostF (Base Paper)",
+      "thresholds": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "metrics": {
+        "MAE": 13.4338,
+        "SD": 0.0001,
+        "RMSE": 16.712,
+        "MAC": 0.9425
+      },
+      "classification": {
+        "accuracy": 0.7335,
+        "precision": 0.7335,
+        "recall": 0.8014,
+        "f1": 0.8014
+      },
+      "confusion_matrix": [
+        [
+          210,
+          76
+        ],
+        [
+          187,
+          527
+        ]
+      ],
+      "layers": 3
+    },
+    "novelty": {
+      "name": "SHAPAdaptiveDCatBoostF (Novelty)",
+      "adaptive_thresholds": [
+        0.317,
+        0.3904,
+        0.2925
+      ],
+      "metrics": {
+        "MAE": 13.786,
+        "SD": 0.0879,
+        "RMSE": 17.1087,
+        "MAC": 0.9391
+      },
+      "classification": {
+        "accuracy": 0.7315,
+        "precision": 0.7315,
+        "recall": 0.7987,
+        "f1": 0.7987
+      },
+      "confusion_matrix": [
+        [
+          207,
+          79
+        ],
+        [
+          193,
+          521
+        ]
+      ],
+      "layers": 3
+    },
+    "improvement": {
+      "MAE_delta": -0.3522,
+      "RMSE_delta": -0.3967,
+      "F1_delta": -0.0027,
+      "ACC_delta": -0.002,
+      "MAE_pct": -2.62,
+      "novelty_wins": false
+    }
+  }
+]

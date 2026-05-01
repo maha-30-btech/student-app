@@ -1,0 +1,557 @@
+[
+  {
+    "model_id": "math_G1_novelty",
+    "dataset": "math",
+    "target": "G1",
+    "feature_names": [
+      "school",
+      "sex",
+      "address",
+      "famsize",
+      "Pstatus",
+      "Medu",
+      "Fedu",
+      "Mjob",
+      "Fjob",
+      "reason",
+      "guardian",
+      "traveltime",
+      "studytime",
+      "failures",
+      "schoolsup",
+      "famsup",
+      "paid",
+      "activities",
+      "nursery",
+      "higher",
+      "internet",
+      "romantic",
+      "famrel",
+      "freetime",
+      "goout",
+      "Dalc",
+      "Walc",
+      "health",
+      "absences",
+      "age"
+    ],
+    "metrics": {
+      "MAE": 1.9987,
+      "SD": 0.0675,
+      "RMSE": 2.5628,
+      "MAC": 0.8913
+    },
+    "cls_metrics": {
+      "accuracy": 0.8481,
+      "precision": 0.5745,
+      "recall": 0.7297,
+      "f1": 0.6429,
+      "tp": 54,
+      "tn": 281,
+      "fp": 40,
+      "fn": 20,
+      "confusion_matrix": [
+        [
+          281,
+          40
+        ],
+        [
+          20,
+          54
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.057,
+      0.0669,
+      0.8761
+    ],
+    "file": "math_G1_novelty.json"
+  },
+  {
+    "model_id": "math_G2_novelty",
+    "dataset": "math",
+    "target": "G2",
+    "feature_names": [
+      "school",
+      "sex",
+      "address",
+      "famsize",
+      "Pstatus",
+      "Medu",
+      "Fedu",
+      "Mjob",
+      "Fjob",
+      "reason",
+      "guardian",
+      "traveltime",
+      "studytime",
+      "failures",
+      "schoolsup",
+      "famsup",
+      "paid",
+      "activities",
+      "nursery",
+      "higher",
+      "internet",
+      "romantic",
+      "famrel",
+      "freetime",
+      "goout",
+      "Dalc",
+      "Walc",
+      "health",
+      "absences",
+      "age"
+    ],
+    "metrics": {
+      "MAE": 2.2371,
+      "SD": 0.0121,
+      "RMSE": 2.8206,
+      "MAC": 0.873
+    },
+    "cls_metrics": {
+      "accuracy": 0.8278,
+      "precision": 0.5152,
+      "recall": 0.7183,
+      "f1": 0.6,
+      "tp": 51,
+      "tn": 276,
+      "fp": 48,
+      "fn": 20,
+      "confusion_matrix": [
+        [
+          276,
+          48
+        ],
+        [
+          20,
+          51
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.0495,
+      0.0694,
+      0.8811
+    ],
+    "file": "math_G2_novelty.json"
+  },
+  {
+    "model_id": "math_G3_novelty",
+    "dataset": "math",
+    "target": "G3",
+    "feature_names": [
+      "school",
+      "sex",
+      "address",
+      "famsize",
+      "Pstatus",
+      "Medu",
+      "Fedu",
+      "Mjob",
+      "Fjob",
+      "reason",
+      "guardian",
+      "traveltime",
+      "studytime",
+      "failures",
+      "schoolsup",
+      "famsup",
+      "paid",
+      "activities",
+      "nursery",
+      "higher",
+      "internet",
+      "romantic",
+      "famrel",
+      "freetime",
+      "goout",
+      "Dalc",
+      "Walc",
+      "health",
+      "absences",
+      "age"
+    ],
+    "metrics": {
+      "MAE": 2.4433,
+      "SD": 0.0364,
+      "RMSE": 3.0631,
+      "MAC": 0.8536
+    },
+    "cls_metrics": {
+      "accuracy": 0.8278,
+      "precision": 0.5618,
+      "recall": 0.6329,
+      "f1": 0.5952,
+      "tp": 50,
+      "tn": 277,
+      "fp": 39,
+      "fn": 29,
+      "confusion_matrix": [
+        [
+          277,
+          39
+        ],
+        [
+          29,
+          50
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.0483,
+      0.0694,
+      0.8824
+    ],
+    "file": "math_G3_novelty.json"
+  },
+  {
+    "model_id": "port_G1_novelty",
+    "dataset": "port",
+    "target": "G1",
+    "feature_names": [
+      "school",
+      "sex",
+      "address",
+      "famsize",
+      "Pstatus",
+      "Medu",
+      "Fedu",
+      "Mjob",
+      "Fjob",
+      "reason",
+      "guardian",
+      "traveltime",
+      "studytime",
+      "failures",
+      "schoolsup",
+      "famsup",
+      "paid",
+      "activities",
+      "nursery",
+      "higher",
+      "internet",
+      "romantic",
+      "famrel",
+      "freetime",
+      "goout",
+      "Dalc",
+      "Walc",
+      "health",
+      "absences",
+      "age"
+    ],
+    "metrics": {
+      "MAE": 2.1002,
+      "SD": 0.1404,
+      "RMSE": 2.5758,
+      "MAC": 0.9008
+    },
+    "cls_metrics": {
+      "accuracy": 0.8521,
+      "precision": 0.5535,
+      "recall": 0.7788,
+      "f1": 0.6471,
+      "tp": 88,
+      "tn": 465,
+      "fp": 71,
+      "fn": 25,
+      "confusion_matrix": [
+        [
+          465,
+          71
+        ],
+        [
+          25,
+          88
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.0506,
+      0.0701,
+      0.8793
+    ],
+    "file": "port_G1_novelty.json"
+  },
+  {
+    "model_id": "port_G2_novelty",
+    "dataset": "port",
+    "target": "G2",
+    "feature_names": [
+      "school",
+      "sex",
+      "address",
+      "famsize",
+      "Pstatus",
+      "Medu",
+      "Fedu",
+      "Mjob",
+      "Fjob",
+      "reason",
+      "guardian",
+      "traveltime",
+      "studytime",
+      "failures",
+      "schoolsup",
+      "famsup",
+      "paid",
+      "activities",
+      "nursery",
+      "higher",
+      "internet",
+      "romantic",
+      "famrel",
+      "freetime",
+      "goout",
+      "Dalc",
+      "Walc",
+      "health",
+      "absences",
+      "age"
+    ],
+    "metrics": {
+      "MAE": 2.2793,
+      "SD": 0.0747,
+      "RMSE": 2.8113,
+      "MAC": 0.8795
+    },
+    "cls_metrics": {
+      "accuracy": 0.8243,
+      "precision": 0.5576,
+      "recall": 0.6917,
+      "f1": 0.6174,
+      "tp": 92,
+      "tn": 443,
+      "fp": 73,
+      "fn": 41,
+      "confusion_matrix": [
+        [
+          443,
+          73
+        ],
+        [
+          41,
+          92
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.0549,
+      0.0548,
+      0.8904
+    ],
+    "file": "port_G2_novelty.json"
+  },
+  {
+    "model_id": "port_G3_novelty",
+    "dataset": "port",
+    "target": "G3",
+    "feature_names": [
+      "school",
+      "sex",
+      "address",
+      "famsize",
+      "Pstatus",
+      "Medu",
+      "Fedu",
+      "Mjob",
+      "Fjob",
+      "reason",
+      "guardian",
+      "traveltime",
+      "studytime",
+      "failures",
+      "schoolsup",
+      "famsup",
+      "paid",
+      "activities",
+      "nursery",
+      "higher",
+      "internet",
+      "romantic",
+      "famrel",
+      "freetime",
+      "goout",
+      "Dalc",
+      "Walc",
+      "health",
+      "absences",
+      "age"
+    ],
+    "metrics": {
+      "MAE": 2.3088,
+      "SD": 0.0703,
+      "RMSE": 2.8822,
+      "MAC": 0.8644
+    },
+    "cls_metrics": {
+      "accuracy": 0.8351,
+      "precision": 0.5806,
+      "recall": 0.6818,
+      "f1": 0.6272,
+      "tp": 90,
+      "tn": 452,
+      "fp": 65,
+      "fn": 42,
+      "confusion_matrix": [
+        [
+          452,
+          65
+        ],
+        [
+          42,
+          90
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.0544,
+      0.0734,
+      0.8722
+    ],
+    "file": "port_G3_novelty.json"
+  },
+  {
+    "model_id": "exam_math_score_novelty",
+    "dataset": "exam",
+    "target": "math_score",
+    "feature_names": [
+      "gender",
+      "race",
+      "parent_edu",
+      "lunch",
+      "test_prep"
+    ],
+    "metrics": {
+      "MAE": 17.0893,
+      "SD": 0.0305,
+      "RMSE": 20.6117,
+      "MAC": 0.9106
+    },
+    "cls_metrics": {
+      "accuracy": 0.75,
+      "precision": 0.8552,
+      "recall": 0.7129,
+      "f1": 0.7776,
+      "tp": 437,
+      "tn": 313,
+      "fp": 74,
+      "fn": 176,
+      "confusion_matrix": [
+        [
+          313,
+          74
+        ],
+        [
+          176,
+          437
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.3208,
+      0.3778,
+      0.3014
+    ],
+    "file": "exam_math_score_novelty.json"
+  },
+  {
+    "model_id": "exam_reading_score_novelty",
+    "dataset": "exam",
+    "target": "reading_score",
+    "feature_names": [
+      "gender",
+      "race",
+      "parent_edu",
+      "lunch",
+      "test_prep"
+    ],
+    "metrics": {
+      "MAE": 13.6248,
+      "SD": 0.0267,
+      "RMSE": 16.8618,
+      "MAC": 0.9407
+    },
+    "cls_metrics": {
+      "accuracy": 0.703,
+      "precision": 0.8574,
+      "recall": 0.6963,
+      "f1": 0.7685,
+      "tp": 493,
+      "tn": 210,
+      "fp": 82,
+      "fn": 215,
+      "confusion_matrix": [
+        [
+          210,
+          82
+        ],
+        [
+          215,
+          493
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.3478,
+      0.3737,
+      0.2785
+    ],
+    "file": "exam_reading_score_novelty.json"
+  },
+  {
+    "model_id": "exam_writing_score_novelty",
+    "dataset": "exam",
+    "target": "writing_score",
+    "feature_names": [
+      "gender",
+      "race",
+      "parent_edu",
+      "lunch",
+      "test_prep"
+    ],
+    "metrics": {
+      "MAE": 13.786,
+      "SD": 0.0879,
+      "RMSE": 17.1087,
+      "MAC": 0.9391
+    },
+    "cls_metrics": {
+      "accuracy": 0.728,
+      "precision": 0.8683,
+      "recall": 0.7297,
+      "f1": 0.793,
+      "tp": 521,
+      "tn": 207,
+      "fp": 79,
+      "fn": 193,
+      "confusion_matrix": [
+        [
+          207,
+          79
+        ],
+        [
+          193,
+          521
+        ]
+      ]
+    },
+    "layers": 3,
+    "adaptive_thresholds": [
+      0.317,
+      0.3904,
+      0.2925
+    ],
+    "file": "exam_writing_score_novelty.json"
+  }
+]
