@@ -1,5 +1,9 @@
 import axios from 'axios';
-const API = axios.create({ baseURL: '/api' });
+const API = axios.create({ 
+  baseURL: process.env.REACT_APP_API_URL 
+    ? `${process.env.REACT_APP_API_URL}/api` 
+    : '/api' 
+});
 export const getModels      = ()      => API.get('/models');
 export const getModel       = (id)    => API.get(`/models/${id}`);
 export const getFeatures    = (id)    => API.get(`/models/${id}/features`);
