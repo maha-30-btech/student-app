@@ -1,7 +1,7 @@
 const fs   = require('fs');
 const path = require('path');
 
-const MODELS_DIR = path.join(__dirname, '../../ml/saved_models');
+const MODELS_DIR = path.join(__dirname, '../saved_models'); 
 const cache = {};
 
 function loadRegistry() {
